@@ -1,0 +1,75 @@
+.container {
+  width: 700px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+body {
+  background-image: url('janko-ferlic-specialdaddy-sfL_QOnmy00-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+p {
+  margin: 3px 0;
+}
+
+header h1 {
+  font-family: 'Domine', serif;
+  font-size: 50px;
+  margin: 50px 0 40px 0;
+}
+
+/* Book */
+.book {
+  margin: 10px 0;
+  border-top: 1px solid #ccc;
+  padding: 6px 0;
+}
+
+.rank-this-week {
+  font-size: 24px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.book .author,
+.publisher,
+.description,
+a {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem; 
+  font-weight: 700;
+  opacity: 0.7;  
+}
+
+.btn:hover {
+  color: teal;
+  opacity: 0.9; 
+}
+
+/* Review */
+
+.review {
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+.review .author {
+  font-weight: bold;  
+}
+
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
