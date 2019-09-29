@@ -23,12 +23,13 @@ html, body {
 
 
 body {
-  background-image: url('jonathan-borba.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .main {
+  background-image: url('jonathan-borba.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 0;
   margin: 0;
 
