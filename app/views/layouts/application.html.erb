@@ -14,13 +14,21 @@
   </head>
 
   <body>
-    <div class="main">
+    <header>
       <div class="container">
-          <header>
-            <h1>Bookmarks</h1>
-          </header>
-          <%= yield %>
+        <div class="row">
+          <div class="col">
+            <a href="/">
+              <h1>Bookmarks</h1>
+            </a>
+          </div>
+        </div>
       </div>
-    </div>
+    </header>
+          
+    <main>
+      <%= yield %>
+    </main>
+
   </body>
 </html>
